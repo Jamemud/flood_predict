@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+venv-*/
+*.egg-info/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Docker
+*.log
+
+# (ถ้าไม่อยากเอา dataset/ไฟล์รายงานขึ้น repo ให้เปิดบรรทัดนี้)
+# flood_file/

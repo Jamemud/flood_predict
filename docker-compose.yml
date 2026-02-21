@@ -1,0 +1,20 @@
+services:
+  ml:
+    build:
+      context: .
+      dockerfile: Dockerfile.ml
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./ml:/app
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    ports:
+      - "8080:80"
+    depends_on:
+      - ml
+    volumes:
+      - ./web:/var/www/html
