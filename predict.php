@@ -178,7 +178,6 @@ echo "</div>";
 // ✅ ปุ่มกลับไปทำนายอีกครั้ง
 echo "<div class='actions'>";
 echo "  <a class='btn btn-primary' href='index.php'>กลับไปทำนายอีกครั้ง</a>";
-echo "  <a class='btn btn-secondary' href='http://localhost:8080/'>กลับหน้าแรก</a>";
 echo "</div>";
 ?>
 
